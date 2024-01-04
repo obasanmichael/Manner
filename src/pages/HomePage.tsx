@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div>
       <Navbar />
-          <main className="pt-4">
+          <main className="pt-[70px]">
               <Heroe />
       </main>
       <Footer />

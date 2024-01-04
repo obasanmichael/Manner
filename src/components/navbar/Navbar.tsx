@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { NavLinks } from "../../constants";
 import Button from "../Button";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ const Navbar = () => {
         Manner
       </Link>
 
-      <ul className="hidden lg:flex h-full gap-4">
+      <ul className="hidden md:flex h-full gap-4">
         {NavLinks.map((link) => (
           <NavLink key={link.key} to={link.path}>
             <Button textColor="text-black" bgColor="bg-[#fff]" path={link.path}>
@@ -18,6 +19,9 @@ const Navbar = () => {
           </NavLink>
         ))}
       </ul>
+      <button className="md:hidden">
+        <MenuIcon className="text-white"/>
+      </button>
     </nav>
   );
 };
