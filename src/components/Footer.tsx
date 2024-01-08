@@ -26,7 +26,7 @@ const Footer = () => {
               <p className="font-bold">Explore</p>
               {NavLinks.map((link) => (
                 <Link
-                  className="text-sm font-light"
+                  className="text-sm font-light hover:underline"
                   key={link.key}
                   to={link.path}
                 >
@@ -36,8 +36,8 @@ const Footer = () => {
             </div>
             <div className="text-white flex flex-col space-y-2">
               <p className="font-bold">Legal</p>
-              <p className="text-sm font-light">Privacy Policy</p>
-              <p className="text-sm font-light">Cookie Notice</p>
+              <p className="text-sm font-light hover:underline">Privacy Policy</p>
+              <p className="text-sm font-light hover:underline">Cookie Notice</p>
             </div>
           </div>
         </div>
