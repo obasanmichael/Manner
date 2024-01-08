@@ -1,5 +1,6 @@
 import Button from "./Button";
 import Container from "./Container";
+import ImageCard from "./ImageCard";
 
 const Heroe = () => {
   return (
@@ -23,6 +24,7 @@ const Heroe = () => {
         </p>
         <Button textColor="text-black" bgColor="bg-white" path="/about">More About Banner</Button>
       </div>
+      <ImageCard label="People" path="/people" img_url="src/assets/People_img.jpg"/>
     </Container>
   );
 };
