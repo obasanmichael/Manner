@@ -24,7 +24,6 @@ const Heroe = () => {
         </p>
         <Button textColor="text-black" bgColor="bg-white" path="/about">More About Banner</Button>
       </div>
-      <ImageCard label="People" path="/people" img_url="src/assets/People_img.jpg"/>
     </Container>
   );
 };

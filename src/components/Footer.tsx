@@ -38,8 +38,12 @@ const Footer = () => {
               </div>
               <div className="text-white flex flex-col space-y-2">
                 <p className="font-bold">Legal</p>
-                <p className="text-sm font-light hover:underline">Privacy Policy</p>
-                <p className="text-sm font-light hover:underline">Cookie Notice</p>
+                <p className="text-sm font-light hover:underline">
+                  Privacy Policy
+                </p>
+                <p className="text-sm font-light hover:underline">
+                  Cookie Notice
+                </p>
               </div>
             </div>
           </div>
@@ -56,15 +60,15 @@ const Footer = () => {
                 placeholder="Email address"
                 type="text"
               />
-              <ArrowCircleRightIcon className="z-10"/>
+              <ArrowCircleRightIcon className="z-10" />
             </div>
           </div>
         </div>
         <div className="">
-          <p className="block text-right text-white font-light text-sm mb-2">©Manner 2023</p>
-          <p className="text-center text-white text-4xl">
-            Manner
+          <p className="block text-right text-white font-light text-sm mb-[100px]">
+            ©Manner 2023
           </p>
+          <p className="text-[26vw] text-center text-white text-4xl pr-5">Manner</p>
         </div>
       </div>
     </Container>

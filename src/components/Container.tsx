@@ -5,7 +5,7 @@ interface Props{
 }
 const Container = ({children} : Props) => {
     return (
-        <div className="py-[50px] px-[55px]">
+        <div className="my-[50px] mx-[55px]">
            {children} 
         </div>
     );

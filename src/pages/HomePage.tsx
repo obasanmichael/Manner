@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Heroe from "../components/Heroe";
+import ImageScroll from "../components/ImageScroll";
 import Navbar from "../components/navbar/Navbar";
 
 const HomePage = () => {
@@ -7,7 +8,8 @@ const HomePage = () => {
     <div>
       <Navbar />
           <main className="pt-[70px]">
-              <Heroe />
+        <Heroe />
+        <ImageScroll/>
       </main>
       <Footer />
     </div>
