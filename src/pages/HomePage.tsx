@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div>
       <Navbar />
-          <main className="pt-[70px]">
+          <main className="pt-[40px]">
         <Heroe />
         <ImageScroll/>
       </main>

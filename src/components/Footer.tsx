@@ -58,7 +58,7 @@ const Footer = () => {
               <input
                 className="py-1 px-4 font-light w-full rounded-full outline-none text-sm"
                 placeholder="Email address"
-                type="text"
+                type="email"
               />
               <ArrowCircleRightIcon className="z-10" />
             </div>
