@@ -6,22 +6,26 @@ import Container from "../Container";
 
 const Navbar = () => {
   return (
-    <Container>
+    <Container backgroundColor="bg-[#353535]">
       <nav className="flex justify-between">
-        <Link className="text-[#fff] text-4xl font-light" to="/">
+        <Link className="text-[#efe3de] text-4xl font-light" to="/">
           Manner
         </Link>
-        <ul className="hidden md:flex h-full gap-4">
+        <ul className="hidden md:flex h-full gap-3">
           {NavLinks.map((link) => (
             <NavLink key={link.key} to={link.path}>
-              <Button textColor="text-black" bgColor="bg-[#fff]" path={link.path}>
+              <Button
+                textColor="text-black"
+                bgColor="bg-[#efe3de]"
+                path={link.path}
+              >
                 {link.label}
               </Button>
             </NavLink>
           ))}
         </ul>
         <button className="md:hidden">
-          <MenuIcon className="text-white"/>
+          <MenuIcon className="text-white" />
         </button>
       </nav>
     </Container>
